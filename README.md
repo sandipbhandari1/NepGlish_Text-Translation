@@ -29,6 +29,13 @@ Record Audio (10 sec) → Transcribe with Whisper → Save to Text File → Spea
 - Python 3.8 or higher
 - Windows, macOS, or Linux
 
+- sounddevice>=0.4.6
+scipy>=1.10.0
+numpy>=1.24.0
+openai-whisper>=20230314
+gtts>=2.3.0
+fpdf2>=2.7.0
+
 ### Install Dependencies
 
 ```bash
